@@ -1,5 +1,6 @@
 // src/components/HatTipsCard.tsx
 import React from 'react';
+import Image from 'next/image';
 import { HAT_TIPS, ALLOCATION_SUMMARY } from '@/data/hat-tips-allocations';
 import { motion } from 'framer-motion';
 
@@ -29,16 +30,27 @@ const HatTipsCard: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: idx * 0.1 }}
           >
-            <div className="flex-1">
-              <p className="font-semibold text-gray-900">@{user.username}</p>
-              <p className="text-xs text-gray-500 font-mono mt-1">
-                {user.solanaAddress}
-              </p>
-              {user.notes && (
-                <p className="text-xs text-gray-600 mt-2 italic">{user.notes}</p>
+            <div className="flex items-center gap-3 flex-1">
+              {user.pfpUrl && (
+                <Image
+                  src={user.pfpUrl}
+                  alt={user.username}
+                  width={40}
+                  height={40}
+                  className="rounded-full flex-shrink-0"
+                />
               )}
+              <div className="min-w-0">
+                <p className="font-semibold text-gray-900">@{user.username}</p>
+                <p className="text-xs text-gray-500 font-mono mt-1 truncate">
+                  {user.solanaAddress}
+                </p>
+                {user.notes && (
+                  <p className="text-xs text-gray-600 mt-1 italic">{user.notes}</p>
+                )}
+              </div>
             </div>
-            <div className="text-right ml-4">
+            <div className="text-right ml-4 flex-shrink-0">
               <p className="text-lg font-bold text-purple-600">
                 {user.percentage}%
               </p>

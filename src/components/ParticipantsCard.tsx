@@ -2,6 +2,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { TOP_80_PARTICIPANTS, PARTICIPANTS_SUMMARY } from '@/data/top-80-participants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
@@ -77,20 +78,34 @@ const ParticipantsCard: React.FC = () => {
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-96 overflow-y-auto">
                 {solanaUsers.map((user, idx) => (
-                  <motion.div
+                  <motion.a
                     key={user.fid}
-                    className="p-3 bg-blue-50 rounded-lg text-sm"
+                    href={`https://warpcast.com/${user.username}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-blue-50 rounded-lg text-sm hover:bg-blue-100 transition-colors flex gap-3 items-start"
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.02 }}
                   >
-                    <p className="font-medium text-gray-900">
-                      #{user.rank} @{user.username}
-                    </p>
-                    <p className="text-xs text-gray-600 mt-1 font-mono truncate">
-                      {user.solanaAddress}
-                    </p>
-                  </motion.div>
+                    {user.pfpUrl && (
+                      <Image
+                        src={user.pfpUrl}
+                        alt={user.username}
+                        width={36}
+                        height={36}
+                        className="rounded-full flex-shrink-0 mt-0.5"
+                      />
+                    )}
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium text-blue-700 hover:text-blue-900">
+                        #{user.rank} @{user.username}
+                      </p>
+                      <p className="text-xs text-gray-600 mt-1 font-mono truncate">
+                        {user.solanaAddress}
+                      </p>
+                    </div>
+                  </motion.a>
                 ))}
               </div>
             </div>
@@ -102,20 +117,34 @@ const ParticipantsCard: React.FC = () => {
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-96 overflow-y-auto">
                 {degenUsers.map((user, idx) => (
-                  <motion.div
+                  <motion.a
                     key={user.fid}
-                    className="p-3 bg-purple-50 rounded-lg text-sm"
+                    href={`https://warpcast.com/${user.username}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-purple-50 rounded-lg text-sm hover:bg-purple-100 transition-colors flex gap-3 items-start"
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.02 }}
                   >
-                    <p className="font-medium text-gray-900">
-                      #{user.rank} @{user.username}
-                    </p>
-                    <p className="text-xs text-gray-600 mt-1 font-mono truncate">
-                      {user.solanaAddress || 'No address linked'}
-                    </p>
-                  </motion.div>
+                    {user.pfpUrl && (
+                      <Image
+                        src={user.pfpUrl}
+                        alt={user.username}
+                        width={36}
+                        height={36}
+                        className="rounded-full flex-shrink-0 mt-0.5"
+                      />
+                    )}
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium text-purple-700 hover:text-purple-900">
+                        #{user.rank} @{user.username}
+                      </p>
+                      <p className="text-xs text-gray-600 mt-1 font-mono truncate">
+                        {user.solanaAddress || 'No address linked'}
+                      </p>
+                    </div>
+                  </motion.a>
                 ))}
               </div>
             </div>

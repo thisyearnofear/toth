@@ -50,6 +50,7 @@ interface ChannelUser {
   castCount: number;
   solanaAddress?: string;
   ethAddress?: string;
+  pfpUrl?: string;
   neynarUserScore?: number;
 }
 
@@ -116,6 +117,7 @@ function convertToChannelUser(user: FarcasterUser, castCount: number): ChannelUs
     castCount,
     solanaAddress: solAddresses[0],
     ethAddress: ethAddresses[0],
+    pfpUrl: user.pfp_url,
     neynarUserScore: user.experimental?.neynar_user_score,
   };
 }
@@ -195,6 +197,7 @@ function exportToCsv(users: ChannelUser[], filename: string) {
     'Cast Count',
     'Solana Address',
     'ETH Address',
+    'PFP URL',
     'Neynar Score',
   ];
 
@@ -206,6 +209,7 @@ function exportToCsv(users: ChannelUser[], filename: string) {
     user.castCount,
     user.solanaAddress || '',
     user.ethAddress || '',
+    user.pfpUrl || '',
     user.neynarUserScore?.toFixed(3) || 'N/A',
   ]);
 

@@ -1,41 +1,41 @@
-Rank,FID,Username,Display Name,Cast Count,Solana Address,ETH Address,Neynar Score
-1,251181,fahime,Fahime,4,HmVre1UrXkWgbdxUvCraDwSbtS6w9cTuuuPv44WtJgS9,0x381837b7b0eb014dc0abecd9724e7cd866689d5b,0.560
-2,430082,0xabir,Abir,4,63xQBMG7MdVaHqxiwJc8D3xw7UmiE4Kbxjr9zro4EQzV,0x53ddeed4ab88e5d904d16432c096dcbd94753e84,0.650
-3,328663,edyhoky87,edyhoky87.base.eth 🧬,2,HKU8S9n3pMduAbScpUEVATn8YuxCpDphhq8Gi8rpzVtJ,0xff0fbc0e2ba7e400cbd63c2f16609424e4eb3cdc,0.640
-4,447623,04sveta04,Sveta,2,AxrxnHv3UoNaPZSSW1GJbatzBqX4KPuegYJUFhyEyJaZ,0x741ed5abf3872b500e4bfe90149bfeaa46c33476,0.710
-5,1014689,fabriziorom,Fabrizio Romano,2,FmvmkcVh6QMzGQrYS8jM7JT6jzAAxxWjub8a66SFDpQM,0x43a08a1b0f8010f585ab88e0309ced622fa5259a,0.150
-6,1098640,bgs25,bagusgaluh.base.eth,2,B9a3cAuMPLoYmeHokZ1eTGHXrbfeUbV7CmA3tM1XTtyH,0x223720d7ee41393bfaa6292fcb2711916d855ed2,0.460
-7,1548310,meduse,null,2,,,0.210
-8,9583,ptrck,Ptrck🎩,1,2xXygejEnAZcjVUUT5MgYAKFqkGbMD2i8jPWw9DjiTJW,0xd85c5377ae75553d1fb84c5ecc48cd10ae7603af,0.880
-9,11548,mcoso.eth,McOso 🎩🐊,1,AiFthVkNYGHQ3w52oNZXiWdsaCZC4S4QozpYicscF2we,0xd095e0f8c72e22319846b643c4bac0cac1f67006,0.990
-10,12915,0xjudd.eth,0xJudd.eth 🎩↑,1,7TVSueqGhJv67tZy4o4Y8oDqJ3LYbETY3Quj27acSPjM,0xd43cf02bea3b50a188a2cd7b2a8435a493e7440f,0.990
-11,16111,arttrick,arttrick🎩🔵✈️🧀👑,1,5gMmsvuPUy9aFiWVs8YQ7tAmdSzW5CFaTnGcDMfNGVET,0x2436979bf51066da9319329e3834d524dab8623b,0.650
-12,191327,joyboy,Joyboy.Degen🎩,1,EP1WGf6Jk8cKnMDnrbJu3PHYGLK65dgn8EQBPr35Nznr,0x57d97990b4dec94d804e8b03e59cdbf3689253af,0.870
-13,214877,ttytyverymuch,Tyverymuch,1,7TSfGXY3hZw9DTSEjXCVMpMdj22rtmYkt92XXUWKCGkG,0x67fc217f9a1bff43edf72c2dbfee93bc41c14c96,0.540
-14,215784,petko,Petko Yankov,1,7EWCt1mXVaP1vpqC6mVwXCPk7eQHMnCDuNt99CRRALAs,0x7d545f040190fe710f86402ef52d502d00809132,0.360
-15,236953,sayko,Satrya,1,84tmHMc9BmjGNiQAf9QZqZhpvczcNgL7cucMB48gwRoq,0xc1b762a21e0fc6f49a4418c14612a24656b93279,0.270
-16,250257,solavesh,avesh.eth,1,GAjXY3NAogwJjEXj9Y1MTtvX736wS3rTCtjDg9sZPKmY,0x4fbdb8f70b817b08f38dea137453ebdd2998788e,0.570
-17,255977,mrrobot,Cihuahuacrypto.eth,1,G5PJd7Hh3FZ2zEczJ1VUL3vAXmGc5qjzAueHHx8AjETN,0xd4b6a10c03183340bec44d0ed3f9cdfda7ecde2e,0.390
-18,258666,devforlife.eth,devForLife,1,HMmd2BartLH328HcuggjcTnbc2tMTqw8iCYMrDjtBiAb,0x9143408a0eac62d09f0bd9199c07ef6d9ebfbf0d,0.770
-19,259023,amarsadaqat,Satoshi Nakamoto,1,4HFLWavxSpzQpffjs2jopLVArh1yQctPx2FzKGx86oJ2,0x630696ed47ed671fc5824fde109c768a849c5690,0.750
-20,269439,afraa,afraa.base.eth,1,2izq2QMZH5EQr5KvnVrRGMAPbTFDprKuaHgBzSPxVfKE,0x1fa260e5da32265901e5a1868d7aeb033708d467,0.740
-21,272413,mohamedrafi,Mohamed Rafi,1,5rcrbf5545cLEwFvXKzrqnsykQAfkhR9xFHTCA9wvhsV,0xf5aa8794b431b0ef97ebb534cd00460607319208,0.300
-22,279910,cryptoourgurukul,0xiam .base.eth,1,51K1NhJ46LiE4WuzDGU7EhniKKPV7hEcPKvCiut1BuQV,0x83ddf6b7ab321a7fcf27e6fb1b6661890f5b30e3,0.430
-23,291844,vatalik,millim,1,AgEo1u5Lg3B5Yp4cKMiSsVJqwpmUesPuSgHETqha939X,0xfa5fef884b65abdcc5d0ceebecd4f741c8b43cfd,0.290
-24,296354,matarcaesar,matar caesar base.eth,1,ESNFp6PnXHQzpkascrtyKuke6nnCLcwwWvdBMDdjg75X,0xf4bff4fafce6bb93eaeab4c5eded3ea681250d5e,0.480
-25,304531,prove,Prove🎩,1,GgQTYMNAKa2As8HVLJkPQtSd6VhFts4oGpdfwu71zBwa,0xaf0ff8140d39e5d69b4dc8b5a291ace840b84841,0.400
-26,310681,peterchimeziec,Peter chimezie,1,EgtheD1q8kfhM1Fi2oBQzFWyQgWPy5myU6h4kRitB9Ue,0x23ec369b808b0b70888d474a5f5af16323fd80fb,0.420
-27,311485,dyoungest,AJ🐱👾,1,BgRKH1y1B5yy69C8qRew8hMmw8pRs6E16nzzW5hNfBqD,0x7c79a0c6d83e24b63204c1d0422033db89c632d2,0.220
-28,312375,lordkeeper.base.eth,Lordkeeper鸿运,1,DBQYkvVK9bMzX449A5mwgJ2u83D5rdq8UebzsvwUhdRN,0x2a8947bc9f6ecb87c255c8b2932276f8aee5cf92,0.770
-29,316882,lystenlyst,Lystenlysts,1,8ap34QDjQ7zzaTd3ChZxydUQf922ENAvfy6CRG7aBjWG,0xa1beaa6d002a332c11b01633345fda9865f5a53a,0.390
-30,322621,mijan444,Mizanur Rahman ,1,7w7NNXCMWv57UCoVKpAraGPC8pYE7eb6P9QcJiHSH8YT,0x687c5fb45841a8defdc43035517da8ef5b1a1e09,0.290
-31,327336,lulolezz,Lulolezz 🎩,1,FJjKiSDr25m7aqgHqfMvzJjGqK5BgH29xBUymDtjokFJ,0x3e5f7a4f4b1a33d23c272b3548afc3c43a0f49b9,0.240
-32,328391,halee,Halee,1,2Wh6bu3wpqXgg4zGHeee4JhjJmgdaLqrXZxdw8rop8KS,0x95ae60ca12bc32a4a77d19545dd9702c049ccece,0.420
-33,330947,skyzo,Skyzo,1,EjyyrgF8Fea5oU327hPXGaR1tCXuYbDCwg1aG5p2SuGx,0xb903f3b01e14a140b53b8c8034656a9aa410b8f6,0.310
-34,337036,jeann,Jean,1,FN1VzRvwQQp5gBMdEr5VFehpMexThZjAc9D6DXDansrB,0xbc912d3aba35ccb2c6c7ac0d445b9f3e866adb41,0.470
-35,349002,picks0,picks,1,3FJMdJYhMXZXkFN74XqH3ERW28EAMxyXZLeQTt51RiNR,0x3c64ef2b34073f927cf4047f0bbf5295209bf301,0.870
-36,350139,joshisdead.eth,joshisdead.eth,1,EE1wsFhCcseYyyNp7W7qef3tr2QhZKnwwKcuVCHC3j3B,0x2e5e9c6358c201c4546b971c2b41882585e270df,0.990
-37,361741,plabon,Plabon,1,3vuXUn7K6GtxSV2XEkuRfHtKi4Vjvcx4YFUNaPsGFSK9,0x15ff90c6a5dfdc579c2f3581006c863a71e6f0fb,0.340
-38,363508,luckynguyen,Lucynguyen,1,CMvnJXMMf6PZqdgVpM8nNgx7c1hC8GWigtEecgXck1GU,0x9568170e6e55fec7ab71b9a738f061c79b91588c,0.440
-39,375536,jdotfinn,J Finn 🎩,1,9bPV6TgfVNueHmCBv8Vp1sQQ8FK1MZueUpvMzYJ1cK7U,0xb642b7b23c84ddc446dc364b1f714cee6bfd0908,1.000
-40,376158,bijoyraj,Deb Raj,1,GRXDA9rSRaRGBVPiVuZSxGpPgfWsRPf4r8gAfmJ3ew9Q,0x6ed76ddd2718d23b5c7d631f0cc2a207bed589b3,0.270
+Rank,FID,Username,Display Name,Cast Count,Solana Address,ETH Address,PFP URL,Neynar Score
+1,251181,fahime,Fahime,4,HmVre1UrXkWgbdxUvCraDwSbtS6w9cTuuuPv44WtJgS9,0x381837b7b0eb014dc0abecd9724e7cd866689d5b,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fbc5490f-572c-4a16-bfb1-59548d7ce900/original,0.560
+2,430082,0xabir,Abir,4,63xQBMG7MdVaHqxiwJc8D3xw7UmiE4Kbxjr9zro4EQzV,0x53ddeed4ab88e5d904d16432c096dcbd94753e84,https://tba-mobile.mypinata.cloud/ipfs/QmUQf6rCENNcKXKbmnC2cnBoAfQuZsBRRRCYXAJizLLTXw?pinataGatewayToken=3nq0UVhtd3rYmgYDdb1I9qv7rHsw-_DzwdWkZPRQ-QW1avFI9dCS8knaSfq_R5_q,0.650
+3,328663,edyhoky87,edyhoky87.base.eth 🧬,2,HKU8S9n3pMduAbScpUEVATn8YuxCpDphhq8Gi8rpzVtJ,0xff0fbc0e2ba7e400cbd63c2f16609424e4eb3cdc,https://d1kgk9u8ytew77.cloudfront.net/ipfs/bafybeiefdh5ryzudhw2y2qvhqbigxigmx4kqkrabqqlnsv3twiz6mphida/2907.png,0.640
+4,447623,04sveta04,Sveta,2,AxrxnHv3UoNaPZSSW1GJbatzBqX4KPuegYJUFhyEyJaZ,0x741ed5abf3872b500e4bfe90149bfeaa46c33476,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ec4f2a4f-f0a2-44bb-06a2-2e2c2e28dc00/original,0.710
+5,1014689,fabriziorom,Fabrizio Romano,2,FmvmkcVh6QMzGQrYS8jM7JT6jzAAxxWjub8a66SFDpQM,0x43a08a1b0f8010f585ab88e0309ced622fa5259a,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e3a094d1-3dec-44a5-62bc-40913647a400/rectcrop3,0.150
+6,1098640,bgs25,bagusgaluh.base.eth,2,B9a3cAuMPLoYmeHokZ1eTGHXrbfeUbV7CmA3tM1XTtyH,0x223720d7ee41393bfaa6292fcb2711916d855ed2,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4cce5ec2-3337-4148-21b3-1b12cda6be00/original,0.460
+7,1548310,meduse,null,2,,,,0.210
+8,9583,ptrck,Ptrck🎩,1,2xXygejEnAZcjVUUT5MgYAKFqkGbMD2i8jPWw9DjiTJW,0xd85c5377ae75553d1fb84c5ecc48cd10ae7603af,https://i.imgur.com/2YIEmhT.jpg,0.880
+9,11548,mcoso.eth,McOso 🎩🐊,1,AiFthVkNYGHQ3w52oNZXiWdsaCZC4S4QozpYicscF2we,0xd095e0f8c72e22319846b643c4bac0cac1f67006,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/642a78f6-8e11-43e2-3bd8-3d14ce87be00/rectcrop3,0.990
+10,12915,0xjudd.eth,0xJudd.eth 🎩↑,1,7TVSueqGhJv67tZy4o4Y8oDqJ3LYbETY3Quj27acSPjM,0xd43cf02bea3b50a188a2cd7b2a8435a493e7440f,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/66c21d51-f8bc-44ea-94b6-26c4f159f700/original,0.990
+11,16111,arttrick,arttrick🎩🔵✈️🧀👑,1,5gMmsvuPUy9aFiWVs8YQ7tAmdSzW5CFaTnGcDMfNGVET,0x2436979bf51066da9319329e3834d524dab8623b,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a9124570-bdaf-433b-e959-3c199bdcb200/rectcrop3,0.650
+12,191327,joyboy,Joyboy.Degen🎩,1,EP1WGf6Jk8cKnMDnrbJu3PHYGLK65dgn8EQBPr35Nznr,0x57d97990b4dec94d804e8b03e59cdbf3689253af,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8354591b-9963-45c4-b657-a7d7278c8200/original,0.870
+13,214877,ttytyverymuch,Tyverymuch,1,7TSfGXY3hZw9DTSEjXCVMpMdj22rtmYkt92XXUWKCGkG,0x67fc217f9a1bff43edf72c2dbfee93bc41c14c96,https://i.imgur.com/rGYg0va.jpg,0.540
+14,215784,petko,Petko Yankov,1,7EWCt1mXVaP1vpqC6mVwXCPk7eQHMnCDuNt99CRRALAs,0x7d545f040190fe710f86402ef52d502d00809132,https://i.imgur.com/gAXaZJJ.jpg,0.360
+15,236953,sayko,Satrya,1,84tmHMc9BmjGNiQAf9QZqZhpvczcNgL7cucMB48gwRoq,0xc1b762a21e0fc6f49a4418c14612a24656b93279,https://beb-public.s3.us-west-1.amazonaws.com/black.jpg,0.270
+16,250257,solavesh,avesh.eth,1,GAjXY3NAogwJjEXj9Y1MTtvX736wS3rTCtjDg9sZPKmY,0x4fbdb8f70b817b08f38dea137453ebdd2998788e,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9277a7b1-463f-4ce7-849e-d9fc35a55200/rectcrop3,0.570
+17,255977,mrrobot,Cihuahuacrypto.eth,1,G5PJd7Hh3FZ2zEczJ1VUL3vAXmGc5qjzAueHHx8AjETN,0xd4b6a10c03183340bec44d0ed3f9cdfda7ecde2e,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/84611100-e4bc-44cd-4020-7a9e3fa79800/original,0.390
+18,258666,devforlife.eth,devForLife,1,HMmd2BartLH328HcuggjcTnbc2tMTqw8iCYMrDjtBiAb,0x9143408a0eac62d09f0bd9199c07ef6d9ebfbf0d,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bb820228-2842-4f64-10a6-d5a76ba26b00/rectcrop3,0.770
+19,259023,amarsadaqat,Satoshi Nakamoto,1,4HFLWavxSpzQpffjs2jopLVArh1yQctPx2FzKGx86oJ2,0x630696ed47ed671fc5824fde109c768a849c5690,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/07bf2d2c-40e2-4ae2-95bd-cd9053a10e00/rectcrop3,0.750
+20,269439,afraa,afraa.base.eth,1,2izq2QMZH5EQr5KvnVrRGMAPbTFDprKuaHgBzSPxVfKE,0x1fa260e5da32265901e5a1868d7aeb033708d467,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/17654e8b-e186-4d86-cf4b-fd3f75310b00/original,0.740
+21,272413,mohamedrafi,Mohamed Rafi,1,5rcrbf5545cLEwFvXKzrqnsykQAfkhR9xFHTCA9wvhsV,0xf5aa8794b431b0ef97ebb534cd00460607319208,https://assets.unlooped.xyz/baejbeihypvdxtxb2x5bkxhvtwjngbw7j3jx6vjmslm3mv6fpc367kwgqjy,0.300
+22,279910,cryptoourgurukul,0xiam .base.eth,1,51K1NhJ46LiE4WuzDGU7EhniKKPV7hEcPKvCiut1BuQV,0x83ddf6b7ab321a7fcf27e6fb1b6661890f5b30e3,https://i.imgur.com/oofdKvZ.jpg,0.430
+23,291844,vatalik,millim,1,AgEo1u5Lg3B5Yp4cKMiSsVJqwpmUesPuSgHETqha939X,0xfa5fef884b65abdcc5d0ceebecd4f741c8b43cfd,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/59f9028f-8c6a-4d91-15df-ff1ca442af00/original,0.290
+24,296354,matarcaesar,matar caesar base.eth,1,ESNFp6PnXHQzpkascrtyKuke6nnCLcwwWvdBMDdjg75X,0xf4bff4fafce6bb93eaeab4c5eded3ea681250d5e,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/03f779c7-c811-4f38-a303-95533af74e00/original,0.480
+25,304531,prove,Prove🎩,1,GgQTYMNAKa2As8HVLJkPQtSd6VhFts4oGpdfwu71zBwa,0xaf0ff8140d39e5d69b4dc8b5a291ace840b84841,https://i.imgur.com/qhumIrP.jpg,0.400
+26,310681,peterchimeziec,Peter chimezie,1,EgtheD1q8kfhM1Fi2oBQzFWyQgWPy5myU6h4kRitB9Ue,0x23ec369b808b0b70888d474a5f5af16323fd80fb,https://i.imgur.com/eLyYuYX.jpg,0.420
+27,311485,dyoungest,AJ🐱👾,1,BgRKH1y1B5yy69C8qRew8hMmw8pRs6E16nzzW5hNfBqD,0x7c79a0c6d83e24b63204c1d0422033db89c632d2,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/df4adceb-fcfa-47ea-c65f-6a982e9b7400/rectcrop3,0.220
+28,312375,lordkeeper.base.eth,Lordkeeper鸿运,1,DBQYkvVK9bMzX449A5mwgJ2u83D5rdq8UebzsvwUhdRN,0x2a8947bc9f6ecb87c255c8b2932276f8aee5cf92,https://res.cloudinary.com/base-app/image/upload/f_auto/v1765274912/842a8dd4-6ad4-47d8-950d-6830848c4d57.jpg,0.770
+29,316882,lystenlyst,Lystenlysts,1,8ap34QDjQ7zzaTd3ChZxydUQf922ENAvfy6CRG7aBjWG,0xa1beaa6d002a332c11b01633345fda9865f5a53a,https://i.imgur.com/YeyG2qt.jpg,0.390
+30,322621,mijan444,Mizanur Rahman ,1,7w7NNXCMWv57UCoVKpAraGPC8pYE7eb6P9QcJiHSH8YT,0x687c5fb45841a8defdc43035517da8ef5b1a1e09,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4a04c106-ab18-47f0-5d6f-202160b43000/rectcrop3,0.290
+31,327336,lulolezz,Lulolezz 🎩,1,FJjKiSDr25m7aqgHqfMvzJjGqK5BgH29xBUymDtjokFJ,0x3e5f7a4f4b1a33d23c272b3548afc3c43a0f49b9,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/abc0d9e5-9f2c-40e0-e5cb-6b3b3b5a4d00/original,0.240
+32,328391,halee,Halee,1,2Wh6bu3wpqXgg4zGHeee4JhjJmgdaLqrXZxdw8rop8KS,0x95ae60ca12bc32a4a77d19545dd9702c049ccece,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/076d793c-ffd3-4af2-ef39-ffc5bfb24200/original,0.420
+33,330947,skyzo,Skyzo,1,EjyyrgF8Fea5oU327hPXGaR1tCXuYbDCwg1aG5p2SuGx,0xb903f3b01e14a140b53b8c8034656a9aa410b8f6,https://ipfs.decentralized-content.com/ipfs/QmRyG2jieNfv423VfJX8VS1iGqEtMABS1GPEmxwvFaRP2f,0.310
+34,337036,jeann,Jean,1,FN1VzRvwQQp5gBMdEr5VFehpMexThZjAc9D6DXDansrB,0xbc912d3aba35ccb2c6c7ac0d445b9f3e866adb41,https://i.imgur.com/OWkrSKY.jpg,0.470
+35,349002,picks0,picks,1,3FJMdJYhMXZXkFN74XqH3ERW28EAMxyXZLeQTt51RiNR,0x3c64ef2b34073f927cf4047f0bbf5295209bf301,https://i.imgur.com/mgRqef0.jpg,0.870
+36,350139,joshisdead.eth,joshisdead.eth,1,EE1wsFhCcseYyyNp7W7qef3tr2QhZKnwwKcuVCHC3j3B,0x2e5e9c6358c201c4546b971c2b41882585e270df,https://i.imgur.com/g63pK5y.jpg,0.990
+37,361741,plabon,Plabon,1,3vuXUn7K6GtxSV2XEkuRfHtKi4Vjvcx4YFUNaPsGFSK9,0x15ff90c6a5dfdc579c2f3581006c863a71e6f0fb,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/cf592305-9e59-4521-6410-59d36739f300/original,0.340
+38,363508,luckynguyen,Lucynguyen,1,CMvnJXMMf6PZqdgVpM8nNgx7c1hC8GWigtEecgXck1GU,0x9568170e6e55fec7ab71b9a738f061c79b91588c,https://imagedelivery.net/g4iQ0bIzMZrjFMgjAnSGfw/93805f7f-8c87-435b-9e7d-8c65b171dc00/public,0.440
+39,375536,jdotfinn,J Finn 🎩,1,9bPV6TgfVNueHmCBv8Vp1sQQ8FK1MZueUpvMzYJ1cK7U,0xb642b7b23c84ddc446dc364b1f714cee6bfd0908,https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9c173af3-ddf3-4e19-5f43-b9f56b996100/rectcrop3,1.000
+40,376158,bijoyraj,Deb Raj,1,GRXDA9rSRaRGBVPiVuZSxGpPgfWsRPf4r8gAfmJ3ew9Q,0x6ed76ddd2718d23b5c7d631f0cc2a207bed589b3,https://i.imgur.com/hDHaJpe.jpg,0.270
