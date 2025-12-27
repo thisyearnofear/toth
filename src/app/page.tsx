@@ -4,25 +4,27 @@
 
 import React from "react";
 import Header from "@/components/Header";
-import UserProfileSection from "@/components/UserProfileSection";
-import DataFetching from "@/components/DataFetching";
-import Directory from "@/components/Directory";
 import Footer from "@/components/Footer";
 import TopHatEmbed from "@/components/TopHatEmbed";
 import BaseGlobeEmbed from "@/components/BaseGlobeEmbed";
-import MemeChainReaction from "@/components/MemeChainReaction";
+import HatTipsCard from "@/components/HatTipsCard";
+import ParticipantsCard from "@/components/ParticipantsCard";
 import { motion } from "framer-motion";
 
 const Tagline = () => (
   <motion.div
-    className="w-full text-center py-12"
+    className="w-full text-center py-8"
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
   >
     <h2 className="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-400">
-      Pool Funds, Fund Awesomeness
+      TOTH: Rewarding Solana Onboarding
     </h2>
+    <p className="text-gray-600 text-sm mt-3 max-w-2xl mx-auto">
+      A token launch that recognizes the most active Farcaster community members in Solana and Degen spaces. 
+      Participants are rewarded for driving conversations and adoption via the BAGS fee-sharing system.
+    </p>
   </motion.div>
 );
 
@@ -32,10 +34,8 @@ export default function Home() {
       <Header />
       <TopHatEmbed />
       <Tagline />
-      <DataFetching />
-      <UserProfileSection />
-      <MemeChainReaction />
-      <Directory />
+      <HatTipsCard />
+      <ParticipantsCard />
       <Footer />
       <BaseGlobeEmbed />
     </main>

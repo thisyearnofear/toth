@@ -1,47 +1,121 @@
-Project description
+# TOTH: Token Fee Sharing for Farcaster Builders
 
-Tip O' The Hat: Pool Tips, Fund Awesomeness - A community initiative on Farcaster to promote & reward exceptional casts by pooling tips & conferring them to deserving creators incentivising quality & community.
+A Solana-based token launch initiative that shares fees with the 40 most active participants in the `/solana` and `/degen` channels on Farcaster.
 
-Three stages: nomination, voting, distribution.
+## Vision
 
-Users can nominate one cast per day. Nomination power is tripled for power badge holders.
+Launch the TOTH coin on Solana using the BAGS protocol for fee sharing. Reward the top 40 users from each of two Farcaster channels, recognizing their contributions to community engagement and Solana onboarding efforts.
 
-The top five nominated casts proceed to voting. Power badge holders (only) can vote once per day.
+**Long-term goal:** Build mini-apps that give TOTH token holders utility, celebrating users who bring Solana builders to Farcaster.
 
-Tips go to the cast creator. If the creator tags others, the tip is split equally. Roadmap: allow casters to specify percentage splits.
+## Setup
 
-What's next?
-A central hub to see historical TOTH recipients/projects + nominations + votes received (could imagine this being used as a builder score of some kind i.e. "the community loved this thing i made, i nearly won TOTH")
+### Environment Variables
 
-splits feature e.g. a team effort product being rewarded, the caster could auto split any tips for that cast between certain wallets/FID’s involved in exact percentages aligned with contributions
+Create `.env.local` with your Neynar API key:
 
-autosubscribe real tips, not tip allocations. where casters dedicate a certain amount of degen per day/week/month to go to TOTH. They can set certain criteria for where the tips are, and are not, allowed to go e.g. exclusively to FRAMES, or exclusively to ART. Any TOTH in a category other than that selection would be skipped automatically.
+```env
+NEYNAR_API_KEY=your_api_key_here
+```
 
-Variations to test
-The frame itself runs on a clock. This means that nominations can only happen from 12AM UTC to 6PM UTC. There will be a 6 window gap where nominations cannot happen.
+Get your API key from [dev.neynar.com](https://dev.neynar.com)
 
-Nomination window: 12AM-6PM UTC (16 h)
-Voting: 6PM-6PM UTC next day (24 h)
-Nomination and voting can happen at the same time. Where nominations will be for the next round and voting for the previous nomination round.
+## Generate User List
 
-Dev
+Use the standalone script to fetch the latest top 40 users from each channel and export to CSV:
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```bash
+bun fetch-channel-users.ts
+```
 
-## Getting Started
+This creates three CSV files:
+- `solana-top-40.csv` - Top 40 users from /solana channel
+- `degen-top-40.csv` - Top 40 users from /degen channel
+- `toth-all-users.csv` - Combined unique users (79 total)
 
-First, run the development server:
+### CSV Columns
+
+- **Rank** - Position in the list
+- **FID** - Farcaster ID
+- **Username** - Farcaster username
+- **Display Name** - User's display name
+- **Cast Count** - Number of casts in the channel
+- **Solana Address** - Verified Solana wallet address
+- **ETH Address** - Verified Ethereum wallet address
+- **Neynar Score** - User quality score (0-1)
+
+## How It Works
+
+1. **Script** fetches casts from specified channel using Neynar Feed API
+2. **Aggregates** cast counts by author FID
+3. **Ranks** by most active (cast count) over recent period
+4. **Fetches** full user details including verified wallet addresses
+5. **Exports** to CSV with all addresses for token distribution
+
+### Activity Metric
+
+- **Cast count** - Total number of casts from the user in the channel
+- Identifies consistent, active community members
+- Most recent casts weighted more in the Neynar ranking
+
+## Web App
+
+Static landing page with embedded CodePen integrations:
+- TopHatEmbed - Displays brand/logo
+- BaseGlobeEmbed - Interactive globe visualization
 
 ```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Deploy on Vercel
+```bash
+bun run build
+bun start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Core Principles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **ENHANCEMENT FIRST** - Extend existing components rather than creating duplicates
+- **AGGRESSIVE CONSOLIDATION** - Remove dead code immediately
+- **PREVENT BLOAT** - Audit before adding features
+- **DRY** - Single source of truth
+- **CLEAN** - Clear separation of concerns
+- **MODULAR** - Composable, testable components
+- **PERFORMANT** - Optimize loading and caching
+- **ORGANIZED** - Domain-driven design
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx           # Landing page
+│   └── layout.tsx         # Root layout
+├── components/
+│   ├── Header.tsx         # Nav header
+│   ├── Footer.tsx         # Footer
+│   ├── TopHatEmbed.tsx    # CodePen embed
+│   ├── BaseGlobeEmbed.tsx # CodePen embed
+│   └── magicui/           # UI animations
+└── utils/
+    └── csvExport.ts       # CSV export helper
+fetch-channel-users.ts     # Standalone script for user export
+```
+
+## Next Steps
+
+1. Run the script to generate CSVs with Solana addresses
+2. Deploy TOTH token on Solana using BAGS protocol
+3. Configure fee-sharing to the 79 unique wallet addresses
+4. Announce to community on Farcaster
+
+## Notes
+
+- Script requires internet connection to reach Neynar API
+- API key is only stored locally in `.env.local` (never committed)
+- CSV generation is one-time; results cached in files
+- To update user list, simply run the script again
