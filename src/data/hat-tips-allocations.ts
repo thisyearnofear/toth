@@ -16,7 +16,7 @@ export const HAT_TIPS: HatTip[] = [
   {
     username: 'papa',
     solanaAddress: '8H3aBQY7woQDq56fZmn8z5bDAK9qLeryMDaM3YSz1HFJ',
-    percentage: 8,
+    percentage: 9,
     pfpUrl: 'https://i.imgur.com/Xwh7VQz.gif',
     notes: '50% allocated for community rewards',
   },
@@ -55,6 +55,6 @@ export const HAT_TIPS: HatTip[] = [
 export const ALLOCATION_SUMMARY = {
   hatTipsTotal: HAT_TIPS.reduce((sum, user) => sum + user.percentage, 0),
   topUsersPercentage: 1,
-  topUsersCount: 79,
-  topUsersTotal: 79 * 1,
+  topUsersCount: 78,
+  topUsersTotal: 78 * 1,
 };

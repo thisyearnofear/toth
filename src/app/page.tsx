@@ -19,11 +19,11 @@ const Tagline = () => (
     transition={{ duration: 0.8 }}
   >
     <h2 className="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-400">
-      TOTH: Rewarding Solana Onboarding
+      TOTH
     </h2>
     <p className="text-gray-600 text-sm mt-3 max-w-2xl mx-auto">
-      A token launch that recognizes the most active Farcaster community members in Solana and Degen spaces. 
-      Participants are rewarded for driving conversations and adoption via the BAGS fee-sharing system.
+      Tip o' the hat rewards and appreciation for mini apps that build utility into existing Solana memes, trends, 
+      coins and tokens. Inspired by degen. Farcaster native.
     </p>
   </motion.div>
 );
